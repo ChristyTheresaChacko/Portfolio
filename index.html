@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Christy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -12,13 +13,13 @@
     <div class="h-100 md:h-screen bg-gradient-to-b from-blue-300 overflow-hidden">
       <!--nav bar-->
         <nav  class="fixed w-full  bg-blue-100 text-white z-100">
-            <div class=" w-full relative mx-auto py-5 flex justify-between item-center">
+            <div class=" w-full relative mx-auto py-5 flex justify-between items-center">
                 <!--logo-->
                 
                 <div class="flex gap-4 item-center">
                     <div class=" absolute -z-10 ml-2 h-9 w-9 lg:h-11 lg:w-11 top-4   rounded-full bg-indigo-950"></div>
-                    <img id="me" class=" ml-3 h-7 transition lg:duration-500 ease-in-out lg:h-9 rounded-full" src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
-                    <h1 class=" transition lg:duration-500 ease-in-out font-bold md:text-2xl lg:text-3xl text-blue-950">Christy225</h1>
+                    <img id="me" class=" ml-3 h-7  lg:duration-500  lg:h-9 rounded-full hover:scale-95 transition duration-300" src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
+                    <h1 class="  lg:duration-500  font-bold md:text-2xl lg:text-3xl text-blue-950 hover:text-blue-300 transition duration-800 ease-in-out">Christy225</h1>
                 </div>
                 <!--nav bar elements-->
                  <ul  class="hidden mr-10 md:flex md:gap-10 space-x-10 text-gray-600 font-semibold text-lg uppercase justify-between gap-1.5">
@@ -48,54 +49,77 @@
 
                 </div>
                 <!--menu hamburger-->
-                <ul id ="menu" class="hidden mr-2 bg-indigo-300 absolute left-0 top-0 w-full rounded-b-3xl space-y-10 text-white text-center">
+                <ul id ="menu" class="hidden mr-2 bg-indigo-950 opacity-80 absolute left-0 top-0 w-full rounded-b-3xl space-y-10 text-white text-center">
                         <li id="hlink" >
-                            <a href="#">homepage</a>
+                            <a href="#">Homepage</a>
                         </li>
                          <li id="hlink" >
-                            <a href="#about">about me</a>
+                            <a href="#about">About</a>
+                        </li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li id="hlink" >
+                             <li id="hlink" >
+                            <a href="#"></a>
+                        </li>
+                            <a href="projects">Projects</a>
+                        </li>        
+                        <li id="hlink" >
+                             <li id="hlink" >
+                            <a href="#"></a>
+                        </li>                 
+                         <li id="hlink" >
+                            <a href="#contacts">Contacts</a>
                         </li>
                          <li id="hlink" >
-                            <a href="#contacts">contacts</a>
+                            <a href="#"></a>
                         </li>
-                         <li id="hlink">
-                            <a href="#services">services</a>
-                        </li>
-                         <li id="hlink" >
-                            <a href="#works">work</a>
-                        </li>
+                        
+                        
+                        
                          
                 </ul>
                 
             </div>
         </nav>
         <!--My image-->
+        <img class = " right-40 top-40 h-1/3 sm:h-1/3 sm:right-45 sm:bottom-10 md:top-79 lg:right-67 md:h-1/2 md:right-18 md:bottom-10 rounded-full  absolute  lg:block z-10 hover:scale-105 transition duration-500 ease-in-out " src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
+
         <div class="hidden sm:block sm:h-100 md:w-100 absolute right-60  bottom-8 md:right-10 md:top-76 lg:right-60 bg-indigo-950 rounded-full"></div>
-        <img class = " right-40 top-40 h-1/3 sm:h-1/3 sm:right-45 sm:bottom-10 md:top-79 lg:right-67 md:h-1/2 md:right-18 md:bottom-10 rounded-full  absolute  lg:block z-10 " src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
         <!--design img-->
-        <img class = "hidden lg:block  md:h-1/2 absolute  right-25  bottom-70"src="./Group 1 (6).png" alt="">
+        <img class = "hidden lg:block  md:h-1/2 absolute  right-25  bottom-70  hover:scale-110 transition duration-500 ease-in-out"src="./Group 1 (6).png" alt="">
         <div class="space-y-100 absolute top-1/9 left-1/4 text-4xl sm:left-15 sm:text-4xl md:left-1/12 md:text-6xl lg:left-40 xl:left-48 lg:top:1/2 xl:text-7xl xl:top-1/3 font-bold">
-    <span class="font-bold">I'm Christy</span>
+    <span class="font-bold hover:text-indigo-950 lg:hover:text-8xl transition duration-800 ease-in-out">I'm Christy</span>
     <p id='text' class="text-indigo-900 font-bold"> </p>
   </div>
 
     </div>
 
     <!--About-->
-    <div class="lg:h-screen px-30 ">
+    <div id="about" class="lg:h-screen px-30 ">
         <div class="container w-full flex-col-reverse justify-centeritems-center lg:flex-row mx-auto my-auto flex justify-evenly gap-20 py-16 lg:py-40 lg:px-30  ">
         <!--left section-->
         <div class="relative">
-            <div class=" hidden lg:block absolute -bottom-6 -right:2 h-100 -z-10 rounded-2xl w-110 bg-indigo-900 shadow-lg shadow-gray-400"></div>
+            
             <div>
-                <img class="rounded-xl z-10 overflow-hidden lg:h-100 lg:w-200 shadow-md shadow-white  " src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
+                <img class="rounded-xl z-10 overflow-hidden lg:h-100 lg:w-200 shadow-md shadow-white  w-[400px] h-[400px] animate-infinite-scale" src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
             </div>
+            <div class=" -z-10 hidden lg:block absolute -bottom-6 -right:2 h-100  rounded-2xl w-110 bg-indigo-900 shadow-lg shadow-gray-400"></div>
+            
         </div>
         <!--right section-->
-        <div class=" gap-10 w-full justify-center lg:flex flex-col rounded-md shadow-lg shadow-gray-600  m-auto right-10 bg-white  p-6 h-full  z-30 ">
+        <div class=" gap-10 w-full justify-center lg:flex flex-col rounded-md shadow-lg shadow-gray-600 lg:hover:scale-110 transition duration-800 ease-in-out m-auto right-10 bg-white  p-6 h-full  z-30 ">
             <h1 class="font-bold text-indigo-950 text-3xl ">ABOUT ME</h1>
-            <p class=" space-y-36 text-indigo-900 font-lg ">im christy theressa hggygyguy hgyguytu gygyuguy guyguy   jjjjjjjj ggggggg
-                
+            <p class=" space-y-36 text-indigo-900 font-lg "> Hey, I'm <span class="text-indigo-950">Christy Theresa Chacko</span> – a recent B.Tech Computer Science graduate from Govt. Engineering College Kottayam.
+             I'm an aspiring software engineer who loves exploring new tech stacks and building cool things.
+             <br>
+            I enjoy frontend development and design, and I’ve been working with HTML, CSS, and JavaScript. 
+            My interest in tech started back in school, and it’s been growing ever since. 
+            I'm always up for learning something new, expanding my skills, and working on meaningful projects.
+            <br>
+            <br>
+            I'm ready to build, collaborate, and make something impactful.
+
             </p>
 
         </div>
@@ -106,7 +130,7 @@
     <div id="skills" class="bg-blue-100 md:h-screen px-20 py-10 " >
         <div class="container  mx-auto flex flex-wrap flex-col md:flex-row gap-20 items-center justify-evenly">
             <!--card-->
-            <div class="w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-2 bg-blue-950 opacity-90">
+            <div class=" hover:scale-110 transition duration-300 w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-2 bg-blue-950 opacity-90">
                 <h1 class="font-bold text-white text-xl">Frontend</h1>
                 
                     <h2 class="text-gray-300 font-semibold">HTML</h2>
@@ -127,7 +151,7 @@
                     </div>
                </div>
                <!--card-->
-            <div class="w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3 bg-blue-950 opacity-90">
+            <div class="hover:scale-110 transition duration-300 w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3 bg-blue-950 opacity-90">
                 <h1 class="font-bold text-white text-xl">Programming Languages</h1>
                 
                     <h2 class="text-gray-300 font-semibold">Python</h2>
@@ -153,7 +177,7 @@
                </div>
              
                <!--card-->
-            <div class="w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3 bg-blue-950 opacity-90">
+            <div class=" hover:scale-110 transition duration-300 w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3 bg-blue-950 opacity-90">
                 <h1 class="font-bold text-white text-xl">Tools</h1>
                 
                     <h2 class="text-gray-300 font-semibold">Figma</h2>
@@ -171,7 +195,7 @@
                     
                </div>
                <!--card-->
-            <div class="w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3 bg-blue-950 opacity-90">
+            <div class="hover:scale-110 transition duration-300 w-full h-fit md:w-4/12 shadow-lg shadow-indigo-900 rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3 bg-blue-950 opacity-90">
                 <h1 class="font-bold text-white text-xl">Backend</h1>
                 
                     <h2 class="text-gray-300 font-semibold">MySQL</h2>
@@ -180,7 +204,7 @@
                     </div>
                     <h2 class="text-gray-300 font-semibold">NodeJS</h2>
                      <div class="w-full bg-gray-200 h-1.5 rounded-md">
-                        <div class="w-1/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                        <div class="w-1/11 bg-indigo-600 h-1.5 rounded-md"></div>
                     </div>
                
                </div>
@@ -191,7 +215,7 @@
     </div>
 
     <!--Projects-->
-    <div class=" p-20 bg-gradient-to-t from-blue-200 md:h-screen"> 
+    <div id="projects" class=" p-20 bg-gradient-to-t from-blue-200 md:h-screen"> 
         <div class="p-5 sm:p-0 flex flex-wrap gap-5 justify-evenly items-center">
         <!--card-->
          <div class="w-full h-fit md:w-4/12 shadow-xl rounded-lg p-4 my-3 md:my-3 flex flex-col gap-3">
@@ -237,10 +261,10 @@
                 <p class="w-1/2 text-center">
                     Do you have an idea? Let's discuss it together.
                 </p>
-                <div class="bg-blue-200 h-10 w-fit rounded-md items-center flex ">
+                <div class="bg-blue-200 h-10 w-fit rounded-md items-center flex hover:scale-110 transition duration-300 ">
                     <h1 class="text-md  text-black">Phone: <span class="font:bold text-indigo-950">+91 8848922357</span></h1>
                 </div>
-                <div class="bg-blue-200 h-10 w-fit rounded-md items-center flex ">
+                <div class="bg-blue-200 h-10 w-fit rounded-md items-center flex hover:scale-110 transition duration-300 ">
                     <h1 class="text-md  text-black">Email: <span class="font:bold text-indigo-950">christytheresa225@gmail.com</span></h1>
                 </div>
             </div>
@@ -250,7 +274,7 @@
                 <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm" type="text" placeholder="Name Surname">
                 <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm" type="email" placeholder="Email">
                 <textarea class="p-2 md:w-1/2 w-full ring-1 ring-indigo-300 rounded-sm" cols="10" rows="10" placeholder="Message.."></textarea>
-                <button class="w-1/2 text-center bg-indigo-800 text-white border-radius-2 font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+                <button class=" hover:scale-110 transition duration-300 w-1/2 text-center bg-indigo-800 text-white border-radius-2 font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
             </form>
 
         </div>
@@ -261,18 +285,18 @@
             <div class="container mx-auto py-3 flex justify-between">
                 <div class="flex items-center gap-1.5">
                     
-                    <img class="rounded-full h-10 " src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
+                    <img class="rounded-full h-10 hover:scale-110 transition duration-300 " src="./Christy Theresa Chacko _CSE (1).jpg" alt="">
                     <span class="text-2xl font-bold text-white">Christy</span>
                 </div>
               
-                    <span class="hidden md:block font-medium text-white">Made by Christy.</span>
+                <span class="hidden md:block font-medium text-white hover:text-xl transition duration-300">Made by Christy.</span>
                   
                 <div class="flex gap-3">
-                    <a href="#"><img class="h-10" src="./g.webp" alt=""></a>
-                    <a href="#"><img class="h-10" src="./l.jpg" alt=""></a>
-                    <a href=""><img class="h-10" src="./i.jpg" alt=""></a>
+                    <a href="#"><img class="h-10 hover:scale-110 transition duration-300" src="./g.webp" alt=""></a>
+                    <a href="#"><img class="h-10 hover:scale-110 transition duration-300" src="./l.jpg" alt=""></a>
+                    <a href=""><img class="h-10 hover:scale-110 transition duration-300" src="./i.jpg" alt=""></a>
                 
-            </div>
+                </div>
             </div>
             
         </div>
